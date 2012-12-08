@@ -25,5 +25,5 @@ On my system the destination is here:
 
 You get this
 ------------
-There will now be several differently colored markers and ink tools and only
-the inline note tool.
+There will now be several differently colored markers and ink tools and both
+note tools.

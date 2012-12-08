@@ -17,67 +17,74 @@ Engine/Annotation Types [specific attributes]:
     Geom
 -->
 <annotatingTools>
-    <tool id="1" name="Inline Note" pixmap="tool-note-inline-okular">
+    <tool id="1" name="Note" pixmap="tool-note-okular">
+        <tooltip>Text Annotation</tooltip>
+        <engine type="PickPoint" color="#FFFF00" hoverIcon="tool-note">
+            <annotation type="Text" color="#FFFF00" />
+        </engine>
+        <shortcut>1</shortcut>
+    </tool>
+    <tool id="2" name="Inline Note" pixmap="tool-note-inline-okular">
         <tooltip>Inline Text Annotation (drag to select a zone)</tooltip>
         <engine type="PickPoint" color="#FFFF00" hoverIcon="tool-note-inline" block="true">
             <annotation type="FreeText" color="#FFFF00" />
         </engine>
-        <shortcut>1</shortcut>
+        <shortcut>2</shortcut>
     </tool>
-    <tool id="2" name="Green Freehand Line" pixmap="tool-underline-okular-green">
+    <tool id="3" name="Green Freehand Line" pixmap="tool-underline-okular-green">
         <tooltip>Green Ink</tooltip>
         <engine type="SmoothLine" color="#00FF00">
             <annotation type="Ink" color="#00FF00" width="2" />
         </engine>
-        <shortcut>2</shortcut>
+        <shortcut>3</shortcut>
     </tool>
-    <tool id="3" name="Red Freehand Line" pixmap="tool-underline-okular-red">
+    <tool id="4" name="Red Freehand Line" pixmap="tool-underline-okular-red">
         <tooltip>Red Ink</tooltip>
         <engine type="SmoothLine" color="#EE0000">
             <annotation type="Ink" color="#EE0000" width="2" />
         </engine>
-        <shortcut>3</shortcut>
+        <shortcut>4</shortcut>
     </tool>
-    <tool id="4" name="Yellow Highlighter" pixmap="tool-highlighter-okular-yellow">
+    <tool id="5" name="Yellow Highlighter" pixmap="tool-highlighter-okular-yellow">
         <tooltip>Yellow Highlight</tooltip>
         <engine type="TextSelector" color="#FFFF00">
             <annotation type="Highlight" color="#FFFF00" />
         </engine>
-        <shortcut>4</shortcut>
+        <shortcut>5</shortcut>
     </tool>
-    <tool id="5" name="Orange Highlighter" pixmap="tool-highlighter-okular-orange">
+    <tool id="6" name="Orange Highlighter" pixmap="tool-highlighter-okular-orange">
         <tooltip>Orange Highlight</tooltip>
         <engine type="TextSelector" color="#FFA858">
             <annotation type="Highlight" color="#FFA858" />
         </engine>
-        <shortcut>5</shortcut>
+        <shortcut>6</shortcut>
     </tool>
-    <tool id="6" name="Light Red Highlighter" pixmap="tool-highlighter-okular-lred">
+    <tool id="7" name="Light Red Highlighter" pixmap="tool-highlighter-okular-lred">
         <tooltip>Light Red Highlight</tooltip>
         <engine type="TextSelector" color="#FFC0C0">
             <annotation type="Highlight" color="#FFC0C0" />
         </engine>
-        <shortcut>6</shortcut>
+        <shortcut>7</shortcut>
     </tool>
-    <tool id="7" name="Cyan Highlighter" pixmap="tool-highlighter-okular-cyan">
+    <tool id="8" name="Cyan Highlighter" pixmap="tool-highlighter-okular-cyan">
         <tooltip>Cyan Highlight</tooltip>
         <engine type="TextSelector" color="#00FFFF">
             <annotation type="Highlight" color="#00FFFF" />
         </engine>
-        <shortcut>7</shortcut>
+        <shortcut>8</shortcut>
     </tool>
-    <tool id="8" name="Green Highlighter" pixmap="tool-highlighter-okular-green">
+    <tool id="9" name="Green Highlighter" pixmap="tool-highlighter-okular-green">
         <tooltip>Green Highlight</tooltip>
         <engine type="TextSelector" color="#00FF00">
             <annotation type="Highlight" color="#00FF00" />
         </engine>
-        <shortcut>8</shortcut>
+        <shortcut>9</shortcut>
     </tool>
-    <tool id="9" name="Red Highlighter" pixmap="tool-highlighter-okular-red">
+    <tool id="10" name="Red Highlighter" pixmap="tool-highlighter-okular-red">
         <tooltip>Red Highlight</tooltip>
         <engine type="TextSelector" color="#EE0000">
             <annotation type="Highlight" color="#EE0000" />
         </engine>
-        <shortcut>9</shortcut>
+        <shortcut>10</shortcut>
     </tool>
 </annotatingTools>

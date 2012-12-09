@@ -85,6 +85,6 @@ Engine/Annotation Types [specific attributes]:
         <engine type="TextSelector" color="#EE0000">
             <annotation type="Highlight" color="#EE0000" />
         </engine>
-        <shortcut>10</shortcut>
+        <shortcut>0</shortcut>
     </tool>
 </annotatingTools>

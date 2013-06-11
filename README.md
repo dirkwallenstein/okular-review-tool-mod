@@ -1,3 +1,6 @@
+Update: Since Version 0.16 you can configure the review tool from within
+Okular.
+
 okular-review-tool-mod
 ======================
 
